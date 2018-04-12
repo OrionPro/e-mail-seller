@@ -1,0 +1,275 @@
+/**
+ * Inlined (inlined.scss)
+ *
+ * - This CSS code will be inlined.
+ * - Media queries will be grouped in the <head> of your email template.
+ */
+
+/* ----- Charset ----- */
+@charset 'UTF-8';
+
+/* ----- Variables ----- */
+@import 'variables';
+
+/* ----- Tools ----- */
+@import 'tools/grid';
+
+/* ----- Generic ----- */
+@import 'generic/reset';
+@import 'generic/typography';
+
+/* ----- Objects ----- */
+@import 'objects/grid';
+
+/* ----- Utilities ----- */
+@import 'utilities/alignment';
+@import 'utilities/images';
+
+/* ----- Components ----- */
+@import 'components/preheader';
+@import 'components/buttons';
+@import 'components/hero';
+
+.header-img {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: $main-color;
+  &.mt {
+    margin-top: 40px;
+  }
+  &.mt-en-seller {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  &.title-footer {
+    color: $main-txt-color;
+    margin-bottom: 20px;
+  }
+  &.title-lk {
+    font-size: 16px;
+    margin-top: -100px;
+    font-weight: normal;
+    @media (max-width: 500px) {
+      margin-top: -60px!important;
+    }
+  }
+  &.color-orange {
+    color: $main-color2;
+    font-size: 22px;
+  }
+  &.title-orange {
+    margin-top: -120px;
+    font-size: 22px;
+    color: $main-color2;
+    @media (max-width: 500px) {
+      margin-top: -60px!important;
+    }
+  }
+}
+.title-dedicated-server{
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+.title-bold {
+  font-weight: bold;
+}
+.margin-dedicated-server {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.welcome-letter-seller-paragraph {
+  color: #a5acac;
+}
+.order-was-successfully-issued {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.order-was-successfully-issued-ul {
+  margin-top: 40px;
+  padding: 0;
+  &.welcome-letter-seller-ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    li {
+      margin-bottom: 0;
+    }
+  }
+  li {
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 18px;
+    color: $main-txt-color
+  }
+  span {
+    font-weight: bold;
+  }
+}
+p {
+  font-size: 16px;
+  color: $main-txt-color;
+  &.england {
+    color: $color-dark!important;
+  }
+  &.lk {
+    font-size: 16px;
+  }
+  &.mt-txt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &.mb-big {
+    margin-bottom: 50px;
+  }
+  &.mb-mid {
+    margin-bottom: 30px;
+  }
+  a {
+    color: $main-color;
+  }
+  &.lk-color-orange {
+    color: $main-color2;
+    font-weight: bold;
+  }
+  &.title-lk {
+    font-weight: bolder;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+  a {
+  width: 260px;
+  height: 38px;
+  margin: auto;
+  line-height: 38px;
+  display: inline-block;
+  background-color: #73bd74;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 3px 0 #2eab65;
+  text-decoration: none;
+  text-align: center;
+  }
+  &.dedicated-server {
+    a {
+      width: 360px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  }
+  img {
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    margin-right: 5px;
+    &.fa-data {
+      top: -1px;
+    }
+  }
+}
+.link-orange {
+  text-align: center;
+  a {
+    width: 266px;
+    height: 59px;
+    border-radius: 10px;
+    margin: 5px auto 10px;
+    line-height: 59px;
+    display: inline-block;
+    font-size: 22px;
+    background-color: $main-color2;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  &.lk {
+    a {
+      width: 400px;
+      font-weight: bold;
+    }
+  }
+}
+.logo-wrap {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  @media (max-width: $breakpoint-mobile) {
+    text-align: center!important;
+  }
+}
+
+.logo {
+  display: inline-block;
+}
+.social {
+  display: inline-block;
+  Float: right;
+  a {
+    text-decoration: none;
+    margin-right: 27px;
+    &.last {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: block!important;
+    Float: none!important;
+    margin-top: 20px;
+  }
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #eef2f2;
+  &.england {
+    background-color: #f6f6f6;
+  }
+}
+.footer-list {
+  margin-bottom: 0;
+  margin-top: 10px;
+  i {
+    display: inline-block;
+    vertical-align: middle!important;
+    margin-right: 5px;
+    img {
+      display: inline-block;
+      vertical-align: middle!important;
+    }
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.footer-bot {
+  text-align: center;
+  padding-top: 30px;
+  p {
+    font-size: 11px;
+    &.line-height {
+      line-height: 1.2;
+    }
+  }
+  a {
+    font-size: 11px;
+    color: $main-color;
+    text-decoration: underline;
+  }
+  &.footer-lk {
+    padding-top: 10px;
+  }
+}
+.footer-bot__green {
+  font-size: 11px;
+  font-weight: bold;
+  color: $main-color;
+}
