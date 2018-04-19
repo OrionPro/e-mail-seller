@@ -85,6 +85,9 @@
 .welcome-letter-seller-paragraph {
   color: #a5acac;
 }
+.telegram-list {
+  padding-bottom: 20px;
+}
 .order-was-successfully-issued {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -122,6 +125,10 @@ p {
   &.mt-txt {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  &.mt-txt-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   &.mb-big {
     margin-bottom: 50px;
