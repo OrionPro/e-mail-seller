@@ -179,6 +179,16 @@ p {
       font-size: 14px;
     }
   }
+  &.new-locations {
+    a {
+      width: 325px;
+      margin-bottom: 35px;
+      @media (max-width: 500px) {
+        width: 270px!important;
+        font-size: 13px!important;
+      }
+    }
+  }
   img {
     position: relative;
     top: -2px;
