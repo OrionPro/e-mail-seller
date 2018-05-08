@@ -156,7 +156,50 @@ p {
 .text-center {
   text-align: center;
 }
-
+.affiliate-statistics-wrap {
+  margin-bottom: 30px;
+}
+.affiliate-statistics-item {
+  height: 48px;
+  line-height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #4d67ac;
+  background-color: #e6f9f1;
+  color: #3a4763;
+  @media (max-width: 500px) {
+    font-size: 14px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+}
+.affiliate-statistics-item-sum {
+  float: right;
+}
+.affiliate-statistics-bot-sum {
+  margin-bottom: 55px;
+  font-weight: bolder;
+  font-size: 18px;
+  dl {
+    overflow: hidden;
+    margin: 0;
+    dt {
+      width: 70%;
+      display: inline-block;
+      line-height: 1.2;
+      @media (max-width: 500px) {
+        width: 65%!important;
+      }
+    }
+    dd {
+      display: inline-block;
+      margin: 0;
+      text-align: right;
+      float: right;
+      color: $main-color;
+    }
+  }
+}
 .link {
   text-align: center;
   a {
