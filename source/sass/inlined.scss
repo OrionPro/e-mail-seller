@@ -70,6 +70,34 @@
       margin-top: -60px!important;
     }
   }
+  &.title-orange2 {
+    margin-top: -65px;
+    font-size: 22px;
+    color: $main-color2;
+    @media (max-width: 500px) {
+      margin-top: -45px!important;
+    }
+  }
+  &.title-orange3 {
+    margin-top: -65px;
+    font-size: 22px;
+    color: $main-color2;
+    @media (max-width: 500px) {
+      margin-top: -35px!important;
+    }
+    @media (max-width: 400px) {
+      margin-top: -20px!important;
+      margin-bottom: 20px!important;
+    }
+  }
+  &.title-orange-plus-p {
+    margin-top: 40px;
+    font-size: 22px;
+    color: $main-color2;
+    @media (max-width: 500px) {
+      margin-top: 40px!important;
+    }
+  }
 }
 .title-dedicated-server{
   margin-top: 35px;
@@ -96,12 +124,21 @@
 .order-was-successfully-issued-ul {
   margin-top: 40px;
   padding: 0;
-  &.welcome-letter-seller-ul {
+  &.proxysale-ul {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     li {
       margin-bottom: 0;
     }
+  }
+  &.fz-16 {
+    li {
+      font-size: 16px;
+    }
+  }
+  &.welcome-letter-seller-ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   li {
     margin-bottom: 20px;
@@ -151,6 +188,9 @@ p {
   }
   &.title-lk {
     font-weight: bolder;
+  }
+  &.fz-20 {
+    font-size: 20px;
   }
 }
 .text-center {
@@ -261,6 +301,15 @@ p {
     a {
       width: 400px;
       font-weight: bold;
+      @media (max-width: 500px) {
+        width: 300px!important;
+        font-size: 16px!important;
+      }
+    }
+  }
+  &.reg-proxysale {
+    a {
+      margin-bottom: 20px;
     }
   }
 }
