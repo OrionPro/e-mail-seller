@@ -170,6 +170,9 @@ p {
   &.fz-18 {
     font-size: 18px;
   }
+  &.fz-22 {
+    font-size: 22px;
+  }
   &.mt-txt-40 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -243,6 +246,12 @@ p {
       color: $main-color;
     }
   }
+}
+.stock-date {
+  color: $main-txt-color;
+}
+.stock-date-img {
+  margin-bottom: 20px;
 }
 .link {
   text-align: center;
