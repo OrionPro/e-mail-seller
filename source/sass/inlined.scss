@@ -160,6 +160,12 @@ p {
   &.england {
     color: $color-dark!important;
   }
+  &.survey-proxysale {
+    margin-top: -120px;
+    @media (max-width: 500px) {
+      margin-top: -60px!important;
+    }
+  }
   &.lk {
     font-size: 16px;
   }
@@ -169,6 +175,9 @@ p {
   }
   &.fz-18 {
     font-size: 18px;
+  }
+  &.fz-19 {
+    font-size: 19px;
   }
   &.fz-22 {
     font-size: 22px;
@@ -185,6 +194,9 @@ p {
   }
   &.mb-mid {
     margin-bottom: 30px;
+  }
+  &.color-orange {
+    color: $main-color2;
   }
   a {
     color: $main-color;
