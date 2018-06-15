@@ -179,6 +179,9 @@ p {
   &.fz-19 {
     font-size: 19px;
   }
+  &.fz-21 {
+    font-size: 21px;
+  }
   &.fz-22 {
     font-size: 22px;
   }
@@ -189,8 +192,14 @@ p {
   &.mb-txt-10 {
     margin-bottom: 10px;
   }
+  &.mb-txt-5 {
+    margin-bottom: 5px;
+  }
   &.mb-big {
     margin-bottom: 50px;
+  }
+  &.mb-0 {
+    margin-bottom: 0;
   }
   &.mb-mid {
     margin-bottom: 30px;
