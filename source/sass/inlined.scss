@@ -138,6 +138,12 @@
   &.proxysale-ul {
     margin-top: 20px;
     margin-bottom: 55px;
+    &.deliver-ul {
+      margin-top: -20px;
+      @media (max-width: 500px) {
+        margin-top: 10px!important;
+      }
+    }
     li {
       margin-bottom: 0;
     }
@@ -151,6 +157,11 @@
   &.fz-16 {
     li {
       font-size: 16px;
+    }
+  }
+  &.fz-20 {
+    li {
+      font-size: 20px;
     }
   }
   &.welcome-letter-seller-ul {
@@ -236,6 +247,26 @@ p {
 }
 .text-center {
   text-align: center;
+}
+.Links-to-forums-proxy-sale {
+  text-align: left;
+  font-size: 0;
+  margin-bottom: 45px;
+}
+.Links-to-forums-proxy-sale__item {
+  width: 50%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  @media (max-width: 500px) {
+    width: 100%!important;
+    font-size: 18px!important;
+  }
+  a {
+    color: #20282a;
+    text-decoration: underline;
+  }
 }
 .affiliate-statistics-wrap {
   margin-bottom: 30px;
