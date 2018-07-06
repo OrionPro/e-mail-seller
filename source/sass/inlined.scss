@@ -269,7 +269,7 @@ p {
   }
 }
 .Links-to-forums-proxy-seller {
-  width: 460px;
+  width: 480px;
   margin: auto;
   font-size: 20px;
   @media (max-width: 500px) {
@@ -280,6 +280,9 @@ p {
     margin-bottom: 10px;
     color: $main-txt-color;
     text-decoration: underline;
+  }
+  span {
+    display: inline-block;
   }
 }
 .affiliate-statistics-wrap {
