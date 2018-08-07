@@ -350,6 +350,11 @@ p {
   text-decoration: none;
   text-align: center;
   }
+  &.reactivation {
+    a {
+      width: 220px;
+    }
+  }
   &.dedicated-server {
     a {
       width: 360px;
