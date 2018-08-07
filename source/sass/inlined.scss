@@ -407,6 +407,16 @@ p {
       }
     }
   }
+  &.reactivation {
+    a {
+      width: 320px;
+      font-weight: bold;
+      @media (max-width: 500px) {
+        width: 300px!important;
+        font-size: 16px!important;
+      }
+    }
+  }
   &.reg-proxysale {
     a {
       margin-bottom: 20px;
