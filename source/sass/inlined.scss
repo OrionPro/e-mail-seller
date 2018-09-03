@@ -433,7 +433,46 @@ p {
     text-align: center!important;
   }
 }
-
+.proxy-news-tuning-seller-item {
+  margin-bottom: 30px;
+}
+.proxy-news-tuning-seller-item__img {
+  width: 50%;
+  display: table-cell;
+  @media (max-width: 600px) {
+    width: 100%!important;
+    display: table!important;
+    margin-bottom: 20px!important;
+    text-align: center!important;
+  }
+}
+.proxy-news-tuning-seller-item__txt {
+  width: 50%;
+  display: table-cell;
+  h3 {
+    font-size: 22px;
+    line-height: 1.2;
+    color: $main-txt-color;
+  }
+  p {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  a {
+    margin-right: 5px;
+    color: $main-color;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  img {
+    vertical-align: middle;
+  }
+  @media (max-width: 600px) {
+    width: 100%!important;
+    display: table!important;
+  }
+}
 .logo {
   display: inline-block;
 }
