@@ -34,6 +34,26 @@
   padding-left: 0!important;
   padding-right: 0!important;
 }
+.halloween-title {
+  font-size:39px;
+  font-weight: bolder;
+  @media (max-width: 380px) {
+      font-size:30px!important;
+  }
+}
+.halloween-title-seller {
+  color: #73bd74;
+  font-size:22px;
+  font-weight: bolder;
+}
+.halloween-big-txt-seller {
+  font-size:22px;
+  @media (max-width: 380px) {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    font-size:18px!important;
+  }
+}
 .title {
   margin: 0;
   font-size: 18px;
