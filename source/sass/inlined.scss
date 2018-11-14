@@ -373,6 +373,13 @@ p {
   text-decoration: none;
   text-align: center;
   }
+  &.black-friday {
+    a {
+      height: 47px;
+      line-height: 47px;
+      font-size: 19px;
+    }
+  }
   &.reactivation {
     a {
       width: 220px;
